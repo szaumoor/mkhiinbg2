@@ -1,5 +1,5 @@
 # M'Khiin NPC for BG2EE. 
-This mod adds M'Khiin Grubdoubler, the wise goblin of Siege of Dragonspear, to BG2EE as a joinable NPC.
+This mod adds M'Khiin Grubdoubler, the goblin companion of Siege of Dragonspear, to BG2EE as a joinable NPC.
 
 ## FAQ
 
@@ -18,6 +18,7 @@ A: Even in death I serve the Omnissiah! :3
 ## CHANGELOG
 
 * 20241024 - Nightly. Drop the BASE. Added Paperdoll, Animations & Soundset support. 
+* 20241025 - Nightly. Added SoA NPC Banters. Fixed a few item issues. Added additional portrait option. 
 
 ## LICENSING
 * M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it. 
