@@ -5,7 +5,7 @@ This mod adds M'Khiin Grubdoubler, the goblin companion of Siege of Dragonspear,
 
 ### Q: Where can I find M'Khiin? 
 
-A: She is hiding in the Temple District's Sewers and can be recruited there. 
+A: M'Khiin is found within the Sewers of the Temple District. In version 1.0 she may join your party and will respond to key story events - though she lacks a dedicated friendship path and quest. In version 2.0 her storyline will expand to include a quest revolving around the other goblins in the sewers.
 
 ### Q: Why does M'Khiin seem out of character?
 
@@ -25,11 +25,11 @@ A: Even in death I serve the Omnissiah! :3
 
 * 20241025 - Nightly. Added SoA NPC Banters. Fixed a few item issues. Added additional portrait option.
 
-* 20241029 - Nightly. Added various interjections (though many are still unwritten). Added City Gate encounter. Added conversation in the Copper Coronet, post killing all the slavers, where M'Khiin can be changed to Neutral Good. 
+* 20241029 - Nightly. Added various interjections (though many are still unwritten). Added City Gate encounter. Added a conversation in the Copper Coronet, post killing all the slavers, where M'Khiin's alignment may change to Neutral Good. 
 
 ## LICENSING
 * M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it.
 
-* My part of the mod is open source. That means anyone is free to fork, make pull requests or alter content. While I'd prefer people approach me if they want new content (e.g. commentary to vanilla quests), crossmod is free real estate. You can contact me to co-write / co-code it. Or simply add the crossmod on your end without my involvement.
+* My part of the mod is open source. That means anyone is free to fork, make pull requests or alter content. While I'd prefer people approach me if they want new content (e.g. changing the lines I've written, reactions to other vanilla quests), crossmod is free real estate. You can contact me to co-write / co-code it. Or simply add the crossmod on your end without my involvement.
 
 * M'Khiin isn't even my OC. She's a canon character I'm expanding on. Honestly -- go wild. Change the talks completely. Remove the PID. Add to the PID. Reword lines you don't like. Write your own, completely seperate M'Khiin BG2EE mod that's considerably better than mine. The sky's the limit. 
