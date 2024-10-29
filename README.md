@@ -21,11 +21,15 @@ A: Even in death I serve the Omnissiah! :3
 
 ## CHANGELOG
 
-* 20241024 - Nightly. Drop the BASE. Added Paperdoll, Animations & Soundset support. 
-* 20241025 - Nightly. Added SoA NPC Banters. Fixed a few item issues. Added additional portrait option. 
+* 20241024 - Nightly. Drop the BASE. Added Paperdoll, Animations & Soundset support.
+
+* 20241025 - Nightly. Added SoA NPC Banters. Fixed a few item issues. Added additional portrait option.
+
 * 20241029 - Nightly. Added various interjections (though many are still unwritten). Added City Gate encounter. Added conversation in the Copper Coronet, post killing all the slavers, where M'Khiin can be changed to Neutral Good. 
 
 ## LICENSING
-* M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it. 
+* M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it.
+
 * My part of the mod is open source. That means anyone is free to fork, make pull requests or alter content. While I'd prefer people approach me if they want new content (e.g. commentary to vanilla quests), crossmod is free real estate. You can contact me to co-write / co-code it. Or simply add the crossmod on your end without my involvement.
+
 * M'Khiin isn't even my OC. She's a canon character I'm expanding on. Honestly -- go wild. Change the talks completely. Remove the PID. Add to the PID. Reword lines you don't like. Write your own, completely seperate M'Khiin BG2EE mod that's considerably better than mine. The sky's the limit. 
