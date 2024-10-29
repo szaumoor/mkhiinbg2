@@ -3,6 +3,10 @@ This mod adds M'Khiin Grubdoubler, the goblin companion of Siege of Dragonspear,
 
 ## FAQ
 
+### Q: Where can I find M'Khiin? 
+
+A: She is hiding in the Temple District's Sewers and can be recruited there. 
+
 ### Q: Why does M'Khiin seem out of character?
 
 A: Players have their own interpretations of canon characters. While I think she remains in-character, you may feel differently. I also don't claim to perfectly replicate her speech. If you have any suggestions for improvements, I'd be delighted to hear them / implement them (with thanks and credit). 
@@ -19,6 +23,7 @@ A: Even in death I serve the Omnissiah! :3
 
 * 20241024 - Nightly. Drop the BASE. Added Paperdoll, Animations & Soundset support. 
 * 20241025 - Nightly. Added SoA NPC Banters. Fixed a few item issues. Added additional portrait option. 
+* 20241029 - Nightly. Added various interjections (though many are still unwritten). Added City Gate encounter. Added conversation in the Copper Coronet, post killing all the slavers, where M'Khiin can be changed to Neutral Good. 
 
 ## LICENSING
 * M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it. 
