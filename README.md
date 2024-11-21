@@ -27,6 +27,8 @@ A: Even in death I serve the Omnissiah! :3
 
 * 20241029 - Nightly. Added various interjections (though many are still unwritten). Added City Gate encounter. Added a conversation in the Copper Coronet, post killing all the slavers, where M'Khiin's alignment may change to Neutral Good. 
 
+* 20241121 - Nightly. Started on crossmod (BaeBG2). Added several more NPC banters (SOA & TOB). Added a few small interjections (for the finale). Added two epilogues. 
+
 ## LICENSING
 * M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it.
 
