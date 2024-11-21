@@ -5,7 +5,7 @@ This mod adds M'Khiin Grubdoubler, the goblin companion of Siege of Dragonspear,
 
 ### Q: Where can I find M'Khiin? 
 
-A: M'Khiin is found within the Sewers of the Temple District. In version 1.0 she may join your party and will respond to key story events - though she lacks a dedicated friendship path and quest. In version 2.0 her storyline will expand to include a quest revolving around the other goblins in the sewers.
+A: M'Khiin is found within the Sewers of the Temple District. In version 1.0 she may join your party and will respond to key story events - though she lacks a dedicated friendship path and quest. In version 2.0 her storyline will expand to include a quest revolving around the other goblins in the sewers. 
 
 ### Q: Why does M'Khiin seem out of character?
 
@@ -27,7 +27,7 @@ A: Even in death I serve the Omnissiah! :3
 
 * 20241029 - Nightly. Added various interjections (though many are still unwritten). Added City Gate encounter. Added a conversation in the Copper Coronet, post killing all the slavers, where M'Khiin's alignment may change to Neutral Good. 
 
-* 20241121 - Nightly. Started on crossmod (BaeBG2). Added several more NPC banters (SOA & TOB). Added a few small interjections (for the finale). Added two epilogues. 
+* 20241121 - Nightly. Started on crossmod (BaeBG2). Added several more NPC banters (SOA & TOB). Added a few small interjections (for the finale). Added two epilogues. Added option to summon her during Throne of Bhaal. 
 
 ## LICENSING
 * M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it.
