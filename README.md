@@ -21,13 +21,11 @@ A: Even in death I serve the Omnissiah! :3
 
 ## CHANGELOG
 
-* 20241024 - Nightly. Drop the BASE. Added Paperdoll, Animations & Soundset support.
-
-* 20241025 - Nightly. Added SoA NPC Banters. Fixed a few item issues. Added additional portrait option.
-
 * 20241029 - Nightly. Added various interjections (though many are still unwritten). Added City Gate encounter. Added a conversation in the Copper Coronet, post killing all the slavers, where M'Khiin's alignment may change to Neutral Good. 
 
 * 20241121 - Nightly. Started on crossmod (BaeBG2). Added several more NPC banters (SOA & TOB). Added a few small interjections (for the finale). Added two epilogues. Added option to summon her during Throne of Bhaal. 
+
+* 20241127 - Nightly. Added a single interjection and more NPC banters for SOA & TOB. Spent six days second-guessing myself and nearly dropping this mod. Such is life. :3 
 
 ## LICENSING
 * M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it.
