@@ -21,7 +21,7 @@ Version 1.0 will add M'Khiin as a joinable NPC with content equivalent to other 
 * She has one mini quest - *A Goblin in the City*. This consists of two encounters where others object to her presence within Athkatla. Completing this is a requirement for her larger questline in version 2.0.
 
 Version 2.x+ will include:
-* One larger quest - *A Refuge for Outcasts*. This requires the completion of *A Goblin in the City* and for <CHARNAME> to change her alignment to Neutral Good. Then, after clearing the undead city, she will start a shelter there. Her two goblin friends from the sewers will head over. Other NPCs will also show up - a gnoll farmer and an ogre baker among them. 
+* One larger quest - *A Refuge for Outcasts*. This requires the completion of *A Goblin in the City* and for CHARNAME to change her alignment to Neutral Good. Then, after clearing the undead city, she will start a shelter there. Her two goblin friends from the sewers will head over. Other NPCs will also show up - a gnoll farmer and an ogre baker among them. 
 * New shaman items for M'Khiin to make her viable for a full BG2EE run. 
 * Crossmod. Notably with Baeloth for BG2. This includes the option to turn M'Khiin's alignment to Neutral Evil instead.
 
