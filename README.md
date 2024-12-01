@@ -1,31 +1,40 @@
 # M'Khiin NPC for BG2EE. 
-This mod adds M'Khiin Grubdoubler, the goblin companion of Siege of Dragonspear, to BG2EE as a joinable NPC.
+This mod adds M'Khiin Grubdoubler, the goblin companion from Siege of Dragonspear, to BG2EE as a joinable NPC. CHARNAME may choose to know her (from Siege) or meet her anew in SOA. 
 
 ## FAQ
 
-### Q: Where can I find M'Khiin? 
+### Q: Where can I recruit her? 
 
-A: M'Khiin is found within the Sewers of the Temple District. In version 1.0 she may join your party and will respond to key story events - though she lacks a dedicated friendship path and quest. In version 2.0 her storyline will expand to include a quest revolving around the other goblins in the sewers. 
+A: M'Khiin is found within the Sewers of the Temple District. Alternatively she can be summoned via the Fate Spirit in TOB. 
+
+### Q: Are there any NPCs you recommend with her? Anyone that she fights with?
+
+A: Haer'Dalis is a good fit - her banters with him strengthen her epilogue. He is, by no means, a requirement however. Alternatively, M'Khiin won't leave because of any other companions. She will, however, find little in common with Korgan and Hexxat. 
+
+### Q: What are your current plans for the mod? 
+
+Version 1.0 will add M'Khiin as a joinable NPC with content equivalent to other One-Day-NPCs. 
+* She banters with vanilla NPCs. 
+* She comments on essential events. E.g. Tree of Life, Spellhold. 
+* She interjects during dialogues.
+* She has a few timer-&-scenery based dialogues to complete her friendship track. 
+* She has one mini quest - *A Goblin in the City*. This consists of two encounters where others object to her presence within Athkatla. Completing this is a requirement for her larger questline in version 2.0.
+
+Version 2.x+ will include:
+* One larger quest - *A Refuge for Outcasts*. This requires <CHARNAME> to change her alignment to Neutral Good. Then, after clearing the undead city, she will start a shelter there. Her two goblin friends from the sewers will head over. Other NPCs will also show up - a gnoll farmer and an ogre baker among them. 
+* New shaman items for M'Khiin to make her viable for a full BG2EE run. 
+* Crossmod. Notably with Baeloth for BG2. This includes the option to turn M'Khiin's alignment to Neutral Evil instead.
+
+### Q: You mentioned alignment changes. What's that about? 
+
+A: M'Khiin is still finding her place within the world. With <CHARNAME>'s encouragement she may switch her alignment to Neutral Good - after the end of the slavery quest in the Copper Coronet. If she is not encouraged to care for others she will remain True Neutral.
+
+*But you mentioned she can be turned Neutral Evil instead?*
+Yes. Crossmod with Baeloth for BG2 will allow it. Her banters with him, and her interactions in the underdark, will convince her that selfishness (even cruelty) is essential for survival. She will alter her beliefs - and actions - accordingly.
 
 ### Q: Why does M'Khiin seem out of character?
 
 A: Players have their own interpretations of canon characters. While I think she remains in-character, you may feel differently. I also don't claim to perfectly replicate her speech. If you have any suggestions for improvements, I'd be delighted to hear them / implement them (with thanks and credit). 
-
-### Q: Any plans for TRA-ifying?
-
-A: Not currently. However, if someone is interested in translating, feel free to reach out. 
-
-### Q: The flesh is weak!
-
-A: Even in death I serve the Omnissiah! :3
-
-## CHANGELOG
-
-* 20241029 - Nightly. Added various interjections (though many are still unwritten). Added City Gate encounter. Added a conversation in the Copper Coronet, post killing all the slavers, where M'Khiin's alignment may change to Neutral Good. 
-
-* 20241121 - Nightly. Started on crossmod (BaeBG2). Added several more NPC banters (SOA & TOB). Added a few small interjections (for the finale). Added two epilogues. Added option to summon her during Throne of Bhaal. 
-
-* 20241127 - Nightly. Added a single interjection and more NPC banters for SOA & TOB. Spent six days second-guessing myself and nearly dropping this mod. Such is life. :3 
 
 ## LICENSING
 * M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it.
