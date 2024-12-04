@@ -9,7 +9,7 @@ A: M'Khiin is found within the Sewers of the Temple District. Alternatively she 
 
 ### Q: Are there any NPCs you recommend with her? Anyone that she fights with?
 
-A: Haer'Dalis is a good fit - her banters with him strengthen her epilogue. He is, by no means, a requirement however. Alternatively, M'Khiin won't leave because of any other companions. She will, however, find little in common with Korgan and Hexxat. 
+A: Haer'Dalis is a good fit - her banters with him strengthen her epilogue. He is, by no means, a requirement however. M'Khiin won't leave because of any other companions. She will, however, find little in common with Korgan and Hexxat. 
 
 ### Q: What are your current plans for the mod? 
 
@@ -27,7 +27,7 @@ Version 2.x+ will include:
 
 ### Q: You mentioned alignment changes. What's that about? 
 
-A: M'Khiin is still finding her place within the world. With <CHARNAME>'s encouragement she may switch her alignment to Neutral Good - after the end of the slavery quest in the Copper Coronet. If she is not encouraged to care for others she will remain True Neutral.
+A: M'Khiin is still finding her place within the world. With CHARNAME's encouragement she may switch her alignment to Neutral Good - after the end of the slavery quest in the Copper Coronet. If she is not encouraged to care for others she will remain True Neutral.
 
 *But you mentioned she can be turned Neutral Evil instead?*
 Yes. Crossmod with Baeloth for BG2 will allow it. Her banters with him, and her interactions in the underdark, will convince her that selfishness (even cruelty) is essential for survival. She will alter her beliefs - and actions - accordingly.
