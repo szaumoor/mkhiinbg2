@@ -36,6 +36,10 @@ Yes. Crossmod with Baeloth for BG2 will allow it. Her banters with him, and her 
 
 A: Players have their own interpretations of canon characters. While I think she remains in-character, you may feel differently. I also don't claim to perfectly replicate her speech. If you have any suggestions for improvements, I'd be delighted to hear them / implement them (with thanks and credit). 
 
+### CONTRIBUTORS
+
+* Special thanks to [@dark0dave](https://github.com/dark0dave/BaeBG2) for writing Baeloth's crossmod lines. <3 
+
 ## LICENSING
 * M'Khiin's resources are pulled from the base Siege of Dragonspear game. I don't own any of it.
 
