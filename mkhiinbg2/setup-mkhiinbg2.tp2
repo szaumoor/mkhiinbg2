@@ -294,5 +294,5 @@ When asked, the goblin  happily recounted her travels with <CHARNAME>, sharing h
 // Crossmod 
 // BAEBG2
 BEGIN ~Crossmod with Baeloth for BG2~ 
-REQUIRE_COMPONENT ~0dbae.tp2~ ~0~ ~Baeloth for BG2 has to be installed.~
+REQUIRE_COMPONENT ~Zdbae.tp2~ ~0~ ~Baeloth for BG2 has to be installed.~
 COMPILE ~mkhiinbg2/crossmod/baebg2.d~ 
