@@ -11,20 +11,20 @@ A: M'Khiin is found within the Sewers of the Temple District. Alternatively she 
 
 ### Q: Are there any NPCs you recommend with her? Anyone that she fights with?
 
-A: Haer'Dalis is a good fit, her banters with him strengthen her epilogues. M'Khiin won't leave because of any other companions, but she will find little in common with Korgan or Hexxat. 
+A: Haer'Dalis is a good fit - her banters with him strengthen her epilogues. M'Khiin won't leave because of any other companions, but she will find little in common with Korgan or Hexxat. 
 
 ### Q: What are your current plans for the mod? 
 
-Version 1.0 will add M'Khiin as a joinable NPC with content equivalent to other One-Day-NPCs. 
+Version 1.0 adds M'Khiin as a joinable NPC with content equivalent to other One-Day NPCs. 
 * She banters with vanilla NPCs. 
 * She comments on essential events. E.g. Tree of Life, Spellhold. 
 * She interjects during dialogues.
 * She has a few timer-&-scenery based dialogues to complete her short friendship track. 
-* She has one mini quest - *A Goblin in the City*. This consists of two encounters where others object to her presence within Athkatla. 
+* She has one mini quest, **A Goblin in the City**, which consists of two encounters where others object to her presence within Athkatla. 
 
 ### Q: You mentioned alignment changes. What's that about? 
 
-A: M'Khiin is still finding her place within the world. With CHARNAME's encouragement she may switch her alignment to Neutral Good - after the end of the slavery quest in the Copper Coronet. If she is not encouraged to care for others she will remain True Neutral.
+A: M'Khiin is still finding her place within the world. With CHARNAME's encouragement, she may switch her alignment to Neutral Good after stopping the slavery ring within in the Copper Coronet. If she is not encouraged to care for others, she will remain True Neutral.
 
 ### Q: Why does M'Khiin seem out of character?
 
