@@ -1,127 +1,127 @@
-/* Obligatory Celvan Limerick */ 
-CHAIN IF WEIGHT #-1 
+/* Obligatory Celvan Limerick */
+CHAIN IF WEIGHT #-1
 ~InParty("BFSMK")
 See("BFSMK")
 !StateCheck("BFSMK",CD_STATE_NOTVALID)
 Global("BFSMKCelvan","AR0300",0)~ THEN CELVAN BFS.Mk2Celv
-~A goblin once snuck from her home,
+++ @5000 /*~A goblin once snuck from her home,
 Preferring to strike out on her own,
 But with no place to stay,
 As an unwanted stray,
-She was forced to continue to roam. ~
+She was forced to continue to roam.~*/
 DO ~SetGlobal("BFSMKCelvan","AR0300",1)~
-== BFSMKJ ~How'd you know that?~
+== BFSMKJ @5001 /*~How'd you know that?~*/
 END CELVAN 1
 
 BEGIN BFSMKJ
 
 // Gobbos Dead
 IF ~Global("BFSMkDeadGobbos","GLOBAL",1)~ THEN BEGIN BFSMk2.JoinQuestDone
-SAY ~Dead? Good. Should give the others a few more days.~
-= ~Not that I care about them. Not that I should. Caring's never done me any good.~ 
+SAY @5002 /*~Dead? Good. Should give the others a few more days.~*/
+= @5003 /*~Not that I care about them. Not that I should. Caring's never done me any good.~*/
 IF ~~ DO ~SetGlobal("BFSMkDeadGobbos","GLOBAL",2)~ EXIT
 END
 
 // Tanner
 IF ~Global("BFSMkTanner","GLOBAL",1)~ THEN BEGIN BFSMk2.Tanner
-SAY ~Smells like my old tribe's den after a feast.~ 
-= ~*sniff* Might smell better even.~
+SAY @5004 /*~Smells like my old tribe's den after a feast.~*/
+= @5005 /*~*sniff* Might smell better even.~*/
 IF ~~ DO ~SetGlobal("BFSMkTanner","GLOBAL",2)~ EXIT
 END
 
 // Freed the Slaves
 IF ~Global("BFSMkFreedSlaves","GLOBAL",1)~ THEN BEGIN BFSMk2.FreedSlaves
-SAY ~They are free. Might not stay that way. City's plenty dangerous.~
-++ ~Just because we couldn't make a lasting difference, doesn't mean we shouldn't act today. Every small step helps.~ + BFSMk2.SlaveryDifference
-++ ~I've done my part. I don't care what happens to them.~ + BFSMk2.SlaveryUncaring
-++ ~Whatever you have to say, M'Khiin, I'm not interested.~ + BFSMk2.SlaveryDisinterest
+SAY @5006 /*~They are free. Might not stay that way. City's plenty dangerous.~*/
+++ @5007 /*~Just because we couldn't make a lasting difference, doesn't mean we shouldn't act today. Every small step helps.~*/ + BFSMk2.SlaveryDifference
+++ @5008 /*~I've done my part. I don't care what happens to them.~*/ + BFSMk2.SlaveryUncaring
+++ @5009 /*~Whatever you have to say, M'Khiin, I'm not interested.~*/ + BFSMk2.SlaveryDisinterest
 END
 
 IF ~~ BFSMk2.SlaveryUncaring
-SAY ~Can't control what happens. Caring only gets you hurt.~ 
-= ~Still...~ 
+SAY @5010 /*~Can't control what happens. Caring only gets you hurt.~*/
+= @5011 /*~Still...~*/
 IF ~~ + BFSMk2.SlaveryUnderstand
 END
 
 IF ~~ BFSMk2.SlaveryDifference
-SAY ~Difficult, sometimes, trying to change things. Already knowing you won't be enough.~  
-= ~Still...~ 
+SAY @5012 /*~Difficult, sometimes, trying to change things. Already knowing you won't be enough.~*/
+= @5011 /*~Still...~*/
 IF ~~ + BFSMk2.SlaveryUnderstand
 END
 
 IF ~~ BFSMk2.SlaveryUnderstand
-SAY ~I wanted to try.~ 
-= ~The cages. The fighting ring. Hits too close to home. Been in that position once - fighting when I didn't want to.~ 
-+ ~!Global("BFSMkSoDKnown","GLOBAL",1)~ + ~I don't know what happened but I'm glad you're free now.~ + BFSMk2.BaelothNotKnown
-+ ~Global("BFSMkSoDKnown","GLOBAL",1)~ + ~I'm glad you escaped Baeloth's imprisonment.~ + BFSMk2.BaelothUnderstand
-++ ~Whatever personal trauma you're going through, I don't want to get involved.~ + BFSMk2.SlaveryDisinterest
-++ ~I was imprisoned and caged too. I don't think recovering from that's ever easy.~ + BFSMk2.ThanksForTheTraumaIrenicus
+SAY @5013 /*~I wanted to try.~*/
+= @5014
++ ~!Global("BFSMkSoDKnown","GLOBAL",1)~ + @5015 /*~I don't know what happened but I'm glad you're free now.~*/ + BFSMk2.BaelothNotKnown
++ ~Global("BFSMkSoDKnown","GLOBAL",1)~ + @5016 /*~I'm glad you escaped Baeloth's imprisonment.~*/ + BFSMk2.BaelothUnderstand
+++ @5017 /*~Whatever personal trauma you're going through, I don't want to get involved.~*/ + BFSMk2.SlaveryDisinterest
+++ @5018 /*~I was imprisoned and caged too. I don't think recovering from that's ever easy.~*/ + BFSMk2.ThanksForTheTraumaIrenicus
 END
 
 IF ~~ BFSMk2.ThanksForTheTraumaIrenicus
-SAY ~Wouldn't be. Nothing easy - right - about it.~
-= ~But if too-talls imprison themselves, why wouldn't others? Not like they treat their kin any better.~
-= ~Goblins are the same. Violent. Short-sighted. Might be they don't know another path. Someone needs to teach them.~
-++ ~You can teach them, M'Khiin. The change might not happen in your lifetime - but it won't happen *at all* unless you start somewhere.~ + BFSMk2.TeachUntilTheyLearn
-++ ~You can't change someone's nature. Just accept things as they are.~ + BFSMk2.LeaveThemBe
-++ ~We cage others before they can cage us. Or we kill them. Survival is what counts.~ + BFSMk2.SurviveAtAllCosts
+SAY @5019 /*~Wouldn't be. Nothing easy - right - about it.~*/
+= @5020 /*~But if too-talls imprison themselves, why wouldn't others? Not like they treat their kin any better.~*/
+= @5021 /*~Goblins are the same. Violent. Short-sighted. Might be they don't know another path. Someone needs to teach them.~*/
+++ @5022 /*~You can teach them, M'Khiin. The change might not happen in your lifetime - but it won't happen *at all* unless you start somewhere.~*/ + BFSMk2.TeachUntilTheyLearn
+++ @5023 /*~You can't change someone's nature. Just accept things as they are.~*/ + BFSMk2.LeaveThemBe
+++ @5024 /*~We cage others before they can cage us. Or we kill them. Survival is what counts.~*/ + BFSMk2.SurviveAtAllCosts
 END
 
 IF ~~ BFSMk2.BaelothNotKnown
-SAY ~Drow offered me shelter and food. Said I'd be an exhibit but not be forced to fight. I fell for it.~
-= ~I should hate him. Do sometimes. But I understand too.~ 
-= ~He's no more welcome than a goblin. If too-talls imprison themselves, why shouldn't a drow do the same? Not like he's one of them. Not like they'd treat him better.~ 
-= ~Might be he doesn't know another path. Might be other goblins don't either. Someone needs to teach them.~ 
-++ ~You can teach them, M'Khiin. The change might not happen in your lifetime - but it won't happen *at all* unless you start somewhere.~ + BFSMk2.TeachUntilTheyLearn
-++ ~You can't change someone's nature. Just accept things as they are.~ + BFSMk2.LeaveThemBe
-++ ~We cage others before they can cage us. Or we kill them. Survival is what counts.~ + BFSMk2.SurviveAtAllCosts
+SAY @5025 /*~Drow offered me shelter and food. Said I'd be an exhibit but not be forced to fight. I fell for it.~*/
+= @5026 /*~I should hate him. Do sometimes. But I understand too.~*/
+= @5027 /*~He's no more welcome than a goblin. If too-talls imprison themselves, why shouldn't a drow do the same? Not like he's one of them. Not like they'd treat him better.~*/
+= @5028 /*~Might be he doesn't know another path. Might be other goblins don't either. Someone needs to teach them.~*/
+++ @5022 /*~You can teach them, M'Khiin. The change might not happen in your lifetime - but it won't happen *at all* unless you start somewhere.~*/ + BFSMk2.TeachUntilTheyLearn
+++ @5023 /*~You can't change someone's nature. Just accept things as they are.~*/ + BFSMk2.LeaveThemBe
+++ @5024 /*~We cage others before they can cage us. Or we kill them. Survival is what counts.~*/ + BFSMk2.SurviveAtAllCosts
 END
 
 IF ~~ BFSMk2.BaelothUnderstand
-SAY ~Dumb drow. I should hate him. Do sometimes. But I understand too.~ 
-= ~He's no more welcome than a goblin. If too-talls imprison themselves, why shouldn't a drow do the same? Not like he's one of them. Not like they'd treat him better.~ 
-= ~Might be he doesn't know another path. Might be other goblins don't either. Someone needs to teach them.~ 
-++ ~You can teach them, M'Khiin. The change might not happen in your lifetime - but it won't happen *at all* unless you start somewhere.~ + BFSMk2.TeachUntilTheyLearn
-++ ~You can't change someone's nature. Just accept things as they are.~ + BFSMk2.LeaveThemBe
-++ ~We cage others before they can cage us. Or we kill them. Survival is what counts.~ + BFSMk2.SurviveAtAllCosts
+SAY @5029 /*~Dumb drow. I should hate him. Do sometimes. But I understand too.~*/
+= @5027 /*~He's no more welcome than a goblin. If too-talls imprison themselves, why shouldn't a drow do the same? Not like he's one of them. Not like they'd treat him better.~*/
+= @5028 /*~Might be he doesn't know another path. Might be other goblins don't either. Someone needs to teach them.~*/
+++ @5022 /*~You can teach them, M'Khiin. The change might not happen in your lifetime - but it won't happen *at all* unless you start somewhere.~*/ + BFSMk2.TeachUntilTheyLearn
+++ @5023 /*~You can't change someone's nature. Just accept things as they are.~*/ + BFSMk2.LeaveThemBe
+++ @5024 /*~We cage others before they can cage us. Or we kill them. Survival is what counts.~*/+ BFSMk2.SurviveAtAllCosts
 END
 
 IF ~~ BFSMk2.TeachUntilTheyLearn
-SAY ~Has to be me, doesn't it? No one else will.~ 
-= ~I'll do it then. ...I'll try.~ 
+SAY @5030 /*~Has to be me, doesn't it? No one else will.~*/
+= @5031 /*~I'll do it then. ...I'll try.~*/
 IF ~~ DO ~SetGlobal("BFSMkFreedSlaves","GLOBAL",2) ActionOverride("BFSMK",ChangeAlignment(Myself,NEUTRAL_GOOD))~ EXIT
 END
 
 IF ~~ BFSMk2.SurviveAtAllCosts
-SAY ~At all costs? Might be you're right. Don't want to end up where I was before.~
-= ~If it's me or them ...I have to choose me.~
+SAY @5032 /*~At all costs? Might be you're right. Don't want to end up where I was before.~*/
+= @5033 /*~If it's me or them ...I have to choose me.~*/
 IF ~~ DO ~SetGlobal("BFSMkFreedSlaves","GLOBAL",2) IncrementGlobal("BFSMkEvilCounter","GLOBAL",1)~ EXIT
 END
 
 IF ~~ BFSMk2.LeaveThemBe
-SAY ~Right. I'm only one goblin. Don't need to involve myself.~ 
+SAY @5034 /*~Right. I'm only one goblin. Don't need to involve myself.~*/
 IF ~~ DO ~SetGlobal("BFSMkFreedSlaves","GLOBAL",2)~ EXIT
 END
 
 IF ~~ BFSMk2.SlaveryDisinterest
-SAY ~Won't bother you then.~ 
+SAY @5035 /*~Won't bother you then.~*/
 IF ~~ DO ~SetGlobal("BFSMkFreedSlaves","GLOBAL",2)~ EXIT
 END
 
-// City Gates 
+// City Gates
 CHAIN IF WEIGHT #-1 ~Global("BFSCityGatesGoblin","GLOBAL",1)~ THEN BFSMKJ BFSMk2.CityGates
-~Guards chased me off earlier. Would've killed me if they could. Careful.~
+++ @5036 /*~Guards chased me off earlier. Would've killed me if they could. Careful.~*/
 DO ~SetGlobal("BFSCityGatesGoblin","GLOBAL",2)~
-== AESOLD ~Hey! You there! You can't bring a goblin into the city! Or...it was already *in* the city? Explain yourself!~
-== BFSMKJ ~I can summon spirits to distract him. Then we run...~ 
+== AESOLD @5037 ~Hey! You there! You can't bring a goblin into the city! Or...it was already *in* the city? Explain yourself!~
+== BFSMKJ ~I can summon spirits to distract him. Then we run...~
 END
 ++ ~Do it.~ EXTERN BFSMKJ BFSMk2.GuardDistracted
 ++ ~It's okay, M'Khiin, I'll deal with this.~ EXTERN BFSMKJ BFSMk2.GuardBribe
 ++ ~Seems you're more trouble than you're worth. I'm done with you. Figure it out yourself.~ EXTERN BFSMKJ BFSMk2.GateKinLeaves
 
 CHAIN BFSMKJ BFSMk2.GuardBribe
-~Right behind you.~ 
-== AESOLD ~Are you ignoring me, citizen? I asked - ordered - you to explain the presence of this goblin.~ 
+~Right behind you.~
+== AESOLD ~Are you ignoring me, citizen? I asked - ordered - you to explain the presence of this goblin.~
 END
 + ~CheckStatGT(Player1,14,CHR)~ + ~Everything is in order. This goblin is my pet. She's registered under the exotic-pets-act.~ EXTERN AESOLD BFSMk2.ChaBribeWorked
 + ~!CheckStatGT(Player1,14,CHR)~ + ~Everything is in order. This goblin is my pet. She's registered under the exotic-pets-act.~ EXTERN AESOLD BFSMk2.BribeNotWork
@@ -140,48 +140,48 @@ END
 ++ ~*whispers* On second thought, M'Khiin, I prefer your plan.~ EXTERN BFSMKJ BFSMk2.GuardDistracted
 
 CHAIN AESOLD BFSMk2.GoldNotEnough
-~It seems we're at an empass. I can settle for nothing less.~ 
-== BFSMKJ ~Enough.~ 
+~It seems we're at an empass. I can settle for nothing less.~
+== BFSMKJ ~Enough.~
 END
 IF ~~ EXTERN BFSMKJ BFSMk2.GuardDistracted
 
 CHAIN AESOLD BFSMk2.GoldBribeWorked
-~A pleasure doing business with you.~ 
+~A pleasure doing business with you.~
 DO ~TakePartyGold(500) IncrementGlobal("BFSMk2GoblinInTheCity","GLOBAL",1)~
-== AESOLD ~Very well. Move along. We don't need the goblin frightening any visitors.~ 
+== AESOLD ~Very well. Move along. We don't need the goblin frightening any visitors.~
 EXIT
 
 CHAIN AESOLD BFSMk2.BribeNotWork
-~Deterring an Amnian Soldier from his duty is a criminal offen...~ 
-== BFSMKJ ~Enough.~ 
+~Deterring an Amnian Soldier from his duty is a criminal offen...~
+== BFSMKJ ~Enough.~
 END
 IF ~~ EXTERN BFSMKJ BFSMk2.GuardDistracted
 
 CHAIN AESOLD BFSMk2.ChaBribeWorked
-~I've never heard of such an act - but you seem like an upstanding <PRO_MANWOMAN>.~ 
+~I've never heard of such an act - but you seem like an upstanding <PRO_MANWOMAN>.~
 DO ~IncrementGlobal("BFSMk2GoblinInTheCity","GLOBAL",1)~
-== AESOLD ~Very well. Move along. We don't need the goblin frightening any visitors.~ 
+== AESOLD ~Very well. Move along. We don't need the goblin frightening any visitors.~
 EXIT
 
 CHAIN AESOLD BFSMk2.StrBribeWorked
-~I'm not getting paid enough to deal with this.~ 
+~I'm not getting paid enough to deal with this.~
 DO ~IncrementGlobal("BFSMk2GoblinInTheCity","GLOBAL",1)~
-== AESOLD ~Move along. We don't need the goblin frightening any visitors.~ 
+== AESOLD ~Move along. We don't need the goblin frightening any visitors.~
 EXIT
 
 CHAIN BFSMKJ BFSMk2.GateKinLeaves
-~Never should have trusted you.~ 
+~Never should have trusted you.~
 DO ~AddJournalEntry(@100002, QUEST_DONE) EscapeArea()~ EXIT
 
 CHAIN BFSMKJ BFSMk2.GuardDistracted
-~Spirit! Heed my call! ~ 
+~Spirit! Heed my call! ~
 DO ~CreateCreatureObjectEffect("BDBGOBG1","BDSHSUM","BFSMK") Wait(3) ActionOverride("BDBGOBG1",DestroySelf()) DisplayStringHead("BFSMK",@9009) IncrementGlobal("BFSMk2GoblinInTheCity","GLOBAL",1)~
 EXIT
 
 // Interjections
 // Tree of Life, M'Khiin was part of the party in SoD
 EXTEND_BOTTOM PLAYER1 33
-IF ~InParty("BFSMK") InMyArea("BFSMK") !StateCheck("BFSMK",CD_STATE_NOTVALID) Global("BFSMkTreeOfLife","GLOBAL",0) Global("BFSMkSoDKnown","GLOBAL",1)~ 
+IF ~InParty("BFSMK") InMyArea("BFSMK") !StateCheck("BFSMK",CD_STATE_NOTVALID) Global("BFSMkTreeOfLife","GLOBAL",0) Global("BFSMkSoDKnown","GLOBAL",1)~
 EXTERN PLAYER1 bfsmktree1
 END
 
@@ -197,7 +197,7 @@ END
 CHAIN BFSMKJ bfsmktree1.1
 ~Got used to running. First from my tribe, then when the too-talls caged you. I'm tired of it. No retreat. Not today. I'm going to stay and I'm going to fight.~
 END
-COPY_TRANS PLAYER1 33 
+COPY_TRANS PLAYER1 33
 
 // Tree of Life, M'Khiin wasn't party of the party in SoD
 
@@ -215,7 +215,7 @@ END
 ++ ~We're nearing the end. I have to know that you're ready. There's no turning back.~ EXTERN BFSMKJ bfsmktree2.1
 
 CHAIN BFSMKJ bfsmktree2.1
-~Got used to running. Ran from my tribe, ran from the guards at the gate. I'm tired of it. No retreat. Not today. I'm going to stay and I'm going to fight.~ 
+~Got used to running. Ran from my tribe, ran from the guards at the gate. I'm tired of it. No retreat. Not today. I'm going to stay and I'm going to fight.~
 END
 COPY_TRANS PLAYER1 33
 
@@ -330,10 +330,10 @@ I_C_T DELCIA 16 BFSMKDELC2
 == BFSMKJ IF ~InParty("BFSMK") InMyArea("BFSMK") !StateCheck("BFSMK",CD_STATE_NOTVALID)~ THEN ~Thought goblins were the worst company. I was wrong. Would prefer them over her.~
 END
 
-// Bridge District, Rose 
+// Bridge District, Rose
 I_C_T MURDGIRL 11 BFSMKROSE1
 == BFSMKJ IF ~InParty("BFSMK") InMyArea("BFSMK") !StateCheck("BFSMK",CD_STATE_NOTVALID)~ THEN ~Makes no sense. Guril Berries are for natural remedies. Why would a killer use 'em?~
-== BFSMKJ ~Might be Solik Berries. Might be - if the killer was eating while they worked.~ 
+== BFSMKJ ~Might be Solik Berries. Might be - if the killer was eating while they worked.~
 END
 
 I_C_T MURDGIRL 21 BFSMKROSE2
